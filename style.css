@@ -1,0 +1,206 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+/*Signup Page*/
+/*start of header element*/
+header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 5px;
+      border-radius: 25px;
+     }
+     
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  width: 100px;
+  height: 100px;
+  color: #fff;
+  margin-left: 50px;
+  text-shadow: 2px 2px 5px black;
+     }
+  
+#website {
+  font-size: 25pt;
+  font-family: "Jura";
+  color: aliceblue;
+  font-weight: 900;
+     }
+     
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16pt;
+  gap: 1rem;
+  font-family: "Lucida Sans";
+  margin-right: 50px;
+  padding: 1rem;
+  
+     }
+     
+nav ul li {
+  list-style: none;
+     }
+
+nav ul li a {
+  text-decoration: none;
+}
+
+.headertext {
+  color: #204c55 ;
+  cursor: pointer;
+  font-weight: 900;
+  text-shadow: 2px 2px 5px white;
+    }
+
+.headertext:hover {
+  background-color: white;
+  transition: background-color .3s;
+  cursor: pointer;
+  padding: 3px;
+  border-radius: 25px;
+}
+/*end of header element*/
+
+
+body {
+  background-image: url(/image/form.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: slideInUp;
+}
+
+/*start of main element*/
+
+p {
+  font-size: 19px;
+}
+
+main {
+  position: absolute;
+  padding: 5px;
+  margin: 2px;
+  width: 40%;
+  height: auto;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255,255,255,.5);
+  background-size: contain;
+  font-family:"FSAlbert";
+  font-weight: 600;
+  border-radius: 25px;
+}
+
+.submit {
+  border-radius: 25px;
+  background-color: black;
+  color: #fff;
+  padding: 3px;
+  margin: 1px;
+}
+
+.index-submit {
+  text-align: center;
+}
+
+.box, .select {
+  border-radius: 25px;
+  border-width: 1px;
+}
+
+#comments, #textarea {
+  display: none;
+}
+/*end of main element*/
+/*Signup Page*/
+
+/*home page*/
+#hometext {
+  position: absolute;
+  text-align: right;
+  left: 40%;
+  height: auto;
+  top: 20%;
+  right: 5%;
+  max-width: 100%;
+}
+
+.hometext {
+  font-size: 40px;
+  color: #fff;
+  text-shadow: 2px 2px 5px black;
+  font-weight: 600;
+  font-family:"Lucida Sans";
+  
+}
+/*home page*/
+
+/*login page*/ 
+#wrapper {
+  position: absolute;
+  margin: 2px;
+  width: 300px;
+  height: auto;
+  right: 50%;
+  background-color: rgba(255,255,255,.5);
+  background-size: contain;
+  font-family:"FSAlbert";
+  font-weight: 600;
+  border-radius: 25px;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 15px;
+}
+
+.wrapper  {
+  font-size: 18px;
+}
+
+.login-submit {
+  border-radius: 25px;
+  color: black;
+  font-weight: 900;
+}
+
+p a {
+  text-decoration: none;
+  list-style: none;
+  color: purple;
+}
+/*login page*/
+
+/*contact page*/ 
+.contact-wrapper {
+  position: absolute;
+  margin: 2px;
+  width: 500px;
+  height: auto;
+  right: 50%;
+  background-color: rgba(255,255,255,.5);
+  background-size: contain;
+  font-family:"FSAlbert";
+  font-weight: 600;
+  border-radius: 25px;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 15px;
+}
+
+.contact-submit {
+  border-radius: 25px;
+  color: black;
+  font-weight: 900;
+}
+
+.contact-form {
+  border-radius: 25px;
+}
+/*contact page*/ 
+
